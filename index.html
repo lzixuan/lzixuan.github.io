@@ -22,51 +22,46 @@
 </head>
 
 <body>
-
-  <div id="headerwrap">
+  <nav class="navbar navbar-default" role="navigation">
     <div class="container">
-      <div class="row centered">
-        <div class="col-lg-12">
-          <h1>Liuzixuan (Peter) Lin</h1>
-          <h3>PhD Student | lzixuan@cs.uchicago.edu</h3>
-        </div>
-        <!--/.col-lg-12 -->
+      <a class="navbar-brand" href="#">Liuzixuan Lin's Homepage</a>
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <!--/.row -->
     </div>
-    <!--/.container -->
-  </div>
-  <!--/.#headerwrap -->
-
+  </nav>
 
   <section id="about" name="about">
-    <div id="intro">
-      <div class="container">
+      <div class="container desc" id="about">
         <div class="row">
 
           <div class="col-lg-2 col-lg-offset-1">
             <h5>ABOUT ME</h5>
+            <h5><a href="/files/CV_Liuzixuan_Lin.pdf"><i class="icon-file"></i>DOWNLOAD CV</a><h5>
+            </p>
           </div>
           <div class="col-lg-6">
-            <p>Hi, my name is Liuzixuan (Peter) Lin (Zixuan Linliu indeed, but such family names cannot appear on passports. Chinese: 林刘子轩). I'm a first-year CS PhD student at the University of Chicago, and I'm working on the <a href="http://people.cs.uchicago.edu/~aachien/lssg/research/zccloud/">Zero-carbon Cloud</a> project with Prof. Andrew A. Chien as advisor. I'm interested in Data Analytics and Systems.
+            <p>Hi, my name is <strong>Liuzixuan (Peter) Lin</strong> (Zixuan Linliu indeed, but such family names cannot appear on passports. Chinese: 林刘子轩). I'm a CS PhD student at the University of Chicago, and I'm working on the <a href="http://people.cs.uchicago.edu/~aachien/lssg/research/zccloud/">Zero-carbon Cloud</a> project with Prof. Andrew A. Chien as advisor. I'm interested in Data Analytics and Systems.
             </p>
             <p>I got my bachelor in Computer Science from Peking University in 2019, with a double major in Economics.</p>
           </div>
-          <div class="col-lg-3">
-            <p><a href="/files/CV_Liuzixuan_Lin.pdf"><i class="icon-file"></i>DOWNLOAD CV<a>
-            </p>
+          <div class="col-lg-3" id="photoContainer">
+            <img src="/img/pic_peter.jpg" id="photo">
           </div>
 
         </div>
         <!--/.row -->
+        <hr>
       </div>
       <!--/.container -->
-    </div>
-    <!--/ #intro -->
   </section>
 
   <!--WORK DESCRIPTION -->
-  <div class="container desc">
+  <div class="container desc" id="projects">
     <div class="row">
 
       <div class="col-lg-2 col-lg-offset-1">
@@ -108,13 +103,12 @@
       </div>
     </div>
     <!--/.row -->
-    <br>
     <hr>
   </div>
   <!--/.container -->
 
   <!--PUBLICATION DESCRIPTION -->
-  <div class="container desc">
+  <div class="container desc" id="publications">
     <div class="row">
       <div class="col-lg-2 col-lg-offset-1">
         <h5>PUBLICATIONS</h5>
@@ -131,7 +125,6 @@
       </div>
     </div>
     <!--/.row -->
-    <br>
     <hr>
   </div>
   <!--/.container -->
@@ -176,7 +169,6 @@
       </div>
     </div>
     <!--/.row -->
-    <br>
   </div>
   <!--/.container -->
 
@@ -231,14 +223,22 @@
     <div id="footwrap">
       <div class="container">
         <div class="row">
-
+          
           <div class="col-lg-2">
-            <h5>OTHER LINKS</h5>
+            <h5>CONTACT</h5>
           </div>
           <div class="col-lg-4">
             <p>
+              <t>Email</t><br/> <a href="mailto:#">lzixuan@uchicago.edu</a> <br/>
+            </p>
+            <p>
               <a href="https://github.com/lzixuan"><i class="fa fa-github"></i></a>
               <a href="https://www.linkedin.com/in/liuzixuan-lin/"><i class="fa fa-linkedin"></i></a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p>
+              <t>Address</t><br/> 5730 S. Ellis Avenue <br/> Chicago, Illinois, 60637 <br/> United States of America <br/>
             </p>
           </div>
         </div>
